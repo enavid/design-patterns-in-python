@@ -27,5 +27,5 @@ The repository is organized as follows:
 To get started with the exercises, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/design-patterns-python.git
+git clone https://github.com/enavid/design-patterns-in-python-.git
 cd design-patterns-python
