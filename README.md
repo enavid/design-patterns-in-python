@@ -12,15 +12,44 @@ This repository contains exercises and examples from the "Design Patterns in Pyt
 ## Description
 
 This course provides a comprehensive overview of design patterns and their implementation in Python. Each design pattern is covered with a detailed explanation, followed by examples and exercises to reinforce learning.
-
-## Repository Structure
-
 The repository is organized as follows:
+### 1. SOLID Principles
+- [ ] Single Responsibility Principle (SRP)
+- [ ] Open/Closed Principle (OCP)
+- [ ] Liskov Substitution Principle (LSP)
+- [ ] Interface Segregation Principle (ISP)
+- [ ] Dependency Inversion Principle (DIP)
 
-- `creational_patterns/`: Examples and exercises for creational design patterns such as Singleton, Factory, and Builder.
-- `structural_patterns/`: Examples and exercises for structural design patterns such as Adapter, Composite, and Decorator.
-- `behavioral_patterns/`: Examples and exercises for behavioral design patterns such as Strategy, Observer, and Command.
-- `README.md`: This file.
+### 2. Creational
+- [ ] Builder
+- [ ] Factories
+  - [ ] Abstract Factory
+  - [ ] Factory Method
+- [ ] Prototype
+- [ ] Singleton
+
+### 3. Structural
+- [ ] Adapter
+- [ ] Bridge
+- [ ] Composite
+- [ ] Decorator
+- [ ] Facade
+- [ ] Flyweight
+- [ ] Proxy
+
+### 4. Behavioral
+- [ ] Chain of Responsibility
+- [ ] Command
+- [ ] Interpreter
+- [ ] Iterator
+- [ ] Mediator
+- [ ] Memento
+- [ ] Observer
+- [ ] State
+- [ ] Strategy
+- [ ] Template Method
+- [ ] Visitor
+
 
 ## Getting Started
 
