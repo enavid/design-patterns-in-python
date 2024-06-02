@@ -39,6 +39,7 @@ I am also studying the books 'Agile Software Development: Principles, Patterns, 
 - **Notes:**
     - **Definition:** Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that the behavior of a module can be extended without modifying its source code.
     - **Rationale:** The principle aims to allow the system to be flexible and adaptable to changing requirements without altering existing code, thus reducing the risk of introducing bugs.
+    - **Achieving OCP:**
       - Abstraction: Use abstractions (interfaces or abstract classes) to define stable points of extension.
       - Polymorphism: Use polymorphism to extend behaviors. New functionalities are added by creating new subclasses or implementing new classes that adhere to the existing abstractions.
       - Composition over Inheritance: Favoring composition over inheritance can also help achieve OCP by allowing new behaviors to be composed rather than modified.
