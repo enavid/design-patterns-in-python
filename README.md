@@ -12,6 +12,7 @@ This repository contains exercises and examples from the "Design Patterns in Pyt
 ## Description
 
 This repository contains exercises and examples from the "Design Patterns in Python" course by Dmitri Nesteruk, focusing on implementing creational, structural, and behavioral patterns in Python.
+
 I am also studying the books 'Agile Software Development: Principles, Patterns, and Practices' and 'Agile Principles, Patterns, and Practices in C#' by Robert C. Martin as part of this course. I will be writing down key notes from these books under each relevant section.
 
 
