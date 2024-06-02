@@ -11,10 +11,19 @@ This repository contains exercises and examples from the "Design Patterns in Pyt
 
 ## Description
 
-This course provides a comprehensive overview of design patterns and their implementation in Python. Each design pattern is covered with a detailed explanation, followed by examples and exercises to reinforce learning.
-The repository is organized as follows:
+This repository contains exercises and examples from the "Design Patterns in Python" course by Dmitri Nesteruk, focusing on implementing creational, structural, and behavioral patterns in Python.
+I am also studying the books 'Agile Software Development: Principles, Patterns, and Practices' and 'Agile Principles, Patterns, and Practices in C#' by Robert C. Martin as part of this course. I will be writing down key notes from these books under each relevant section.
+
+
+|         ![Agile Software Development](book_cover1.jpg)          | ![Agile Principles, Patterns, and Practices in C#](book_cover2.jpg) |
+|:---------------------------------------------------------------:|:-------------------------------------------------------------------:|
+| Agile Software Development: Principles, Patterns, and Practices |           Agile Principles, Patterns, and Practices in C#           |
+ 
+
 ### 1. SOLID Principles
 - [ ] Single Responsibility Principle (SRP)
+- **Notes:**
+    - Note 1
 - [ ] Open/Closed Principle (OCP)
 - [ ] Liskov Substitution Principle (LSP)
 - [ ] Interface Segregation Principle (ISP)
