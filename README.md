@@ -21,10 +21,20 @@ I am also studying the books 'Agile Software Development: Principles, Patterns, 
 | Agile Software Development: Principles, Patterns, and Practices |           Agile Principles, Patterns, and Practices in C#           |
  
 
+
 ### 1. SOLID Principles
-- [ ] Single Responsibility Principle (SRP)
+- [X] Single Responsibility Principle (SRP)
 - **Notes:**
-    - Note 1
+    - **Definition:** A class should have only one reason to change. This means that a class should have only one job or responsibility.
+    - **Rationale:** When a class has more than one responsibility, those responsibilities become coupled. A change to one responsibility could impair or inhibit the class's ability to meet the others. This results in a fragile design that is difficult to maintain and extend.
+    - **Cohesion:** SRP promotes high cohesion within classes, where all methods and properties of a class are closely related to its primary responsibility. High cohesion makes the system more understandable and easier to maintain.
+    - **Decoupling:** By adhering to SRP, you decouple code such that each class addresses a specific concern. This decoupling enhances the system's modularity, making it easier to understand, test, and refactor.
+    - **Examples and Illustrations:** Martin provides concrete examples to illustrate how classes often end up with multiple responsibilities and how refactoring them according to SRP results in cleaner, more manageable code.
+    - **Impact on Design:** Applying SRP can lead to more classes, but each class is simpler and more focused. This focus helps in isolating the impact of changes and improving code robustness.
+    - **Connection to Other Principles:** SRP is foundational and interrelated with other SOLID principles (Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, Dependency Inversion Principle). Adherence to SRP helps in naturally aligning the design with these other principles.
+    - **Real-World Application:** Martin emphasizes that in real-world applications, identifying the single responsibility of a class can sometimes be challenging. It requires thoughtful consideration of what constitutes a "responsibility" in the context of the software's domain and requirements.
+    - By following SRP, developers can create systems that are more robust, easier to understand, and maintainable over time.
+
 - [ ] Open/Closed Principle (OCP)
 - [ ] Liskov Substitution Principle (LSP)
 - [ ] Interface Segregation Principle (ISP)
