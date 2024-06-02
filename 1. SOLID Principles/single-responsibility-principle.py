@@ -13,9 +13,39 @@ class Journal:
     def __str__(self):
         return '\n'.join(self.entries)
 
+    # def save(self, filename):
+    #     file = open(filename, 'w')
+    #     file.write(str(self))
+    #     file.close()
+    #
+    # def load(self, filename):
+    #     pass
+    #
+    # def low_from_web(self, uri):
+    #     pass
+
+
+class PersistenceManager:
+    @staticmethod
+    def save(journal, filename):
+        file = open(filename, 'w')
+        file.write(str(journal))
+        file.close()
+
+    def load(self, filename):
+        pass
+
+    def low_from_web(self, uri):
+        pass
 
 
 j = Journal()
 j.add_entry('I cried today.')
 j.add_entry('I ate a bug.')
 print(f'Journal entries: {j}')
+
+file = r'c:\temp\journal.txt'
+PersistenceManager.save(j, file)
+
+with open(file) as fh:
+    print(fh.read())
