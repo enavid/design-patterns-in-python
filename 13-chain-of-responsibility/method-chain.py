@@ -59,3 +59,4 @@ if __name__ == '__main__':
     root.add_modifier(DoubleAttackModifier(goblin))
     root.handle()
     print(goblin)
+
